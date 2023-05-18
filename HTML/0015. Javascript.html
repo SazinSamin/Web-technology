@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+<body>
+        
+        <!-- To identify an element by Javascript, we have to set a ID for that element -->
+        <h1 id="ID1">This content from HTML</h1>
+
+        <!-- Set a button which ignite the event -->
+        <button type="button" onclick="myFunction()">CLICK HERE</button>
+
+        <!-- Javascript code inside <script> tag -->
+        <script>
+                function myFunction(){
+                        document.getElementById("ID1").innerHTML = "This content now from Javascript";
+                }
+        </script>
+
+</body>
+</html>

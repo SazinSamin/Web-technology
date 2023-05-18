@@ -1,0 +1,20 @@
+/* https://www.w3schools.com/css/css3_variables.asp */
+
+
+:root{
+        /* css variable declearation */
+        --myColor: rgb(0, 246, 62);
+        --backgroundColor: blue;
+        --borderColor: yellow; 
+        --myPadding: 10px
+}
+
+.colorVar{
+        /* use of css decleared variable  */
+        color: var(--myColor);
+        /* the second "black" color is called fallback value, it will only work when the first */
+        /* variable somehow not work or not found. */
+        background-color: var(--backgroundColor, black);
+        border: 10px solid var(--borderColor);     
+        padding: var(--myPadding);
+}

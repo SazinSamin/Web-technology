@@ -1,0 +1,24 @@
+// https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/learn-how-the-css-keyframes-and-animation-properties-work
+
+
+.box{
+    height: 500px;
+    width: 500px;
+    animation-name: rainbow;
+    animation-duration: 5s;
+}
+
+@keyframes rainbow{
+    0%{
+        background-color: red;
+        transform: skew(0deg);
+    }
+    50%{
+        background-color: green;
+        transform: skew(45deg);
+    }
+    100%{
+        background-color: blue;
+        transform: skew(90deg);
+    }
+}

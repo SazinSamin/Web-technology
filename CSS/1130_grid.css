@@ -1,0 +1,18 @@
+body{
+  /* to get the grid system css, use display: grid */
+  display: grid;
+  grid-row-gap: 50px;
+  grid-column-gap: 5px;
+  grid-gap: 10px 20px;
+  grid-gap: 10px;
+  grid-column: 2/4;
+  grid-row: 2/4;
+  // for horizontal alignment
+  justify-self: center;
+  // for vertical alignment
+  align-self: end;
+  // horizonatal aligment to all items;
+  justify-items: center;
+  // vertical aligment to all items;
+  align-items: end;
+}

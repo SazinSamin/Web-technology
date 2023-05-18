@@ -1,0 +1,79 @@
+/* single selector*/
+
+body{
+        background-color: antiquewhite;
+}
+
+
+h1{
+        text-align: left;
+        font-size: 50px;
+}
+
+
+
+
+/* multiple selector*/
+
+h3, h4{
+        text-align: left;
+        font-size: 35px;
+}
+
+
+/* select multple classes at a time */
+#Commit, #Cancel{
+        background-color: green;
+        border: 10px solid gray;
+        padding: 10px;
+        opacity: 0.5;
+}
+
+
+
+
+/* id selector */
+#Date{
+        font-size: 12px;
+        color: blue;
+}
+
+
+
+
+
+/* class selector*/
+.news{
+        font-size: 20px;
+}
+
+
+
+
+
+/* select child of a class */
+.ListItems ol{
+        background-color: aquamarine;
+        margin: 40px;
+        width: 30%;
+}
+
+
+
+
+
+/* select child of child of a class */
+.ListItems ol li{
+        padding: 10px;
+        color: blue;
+}
+
+
+
+
+/* attribute selector */
+/* [attr = value] */
+[type="checkbox"]{
+        display:grid;
+}
+

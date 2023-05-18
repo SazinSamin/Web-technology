@@ -1,0 +1,7 @@
+/* https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-principles/make-typography-responsive */
+/* https://www.w3schools.com/css/css_rwd_viewport.asp */
+
+p{
+  /* 30vmin cover minimum 30% of the viewport */
+  width: 30vmin;
+}

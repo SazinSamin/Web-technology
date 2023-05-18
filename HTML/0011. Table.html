@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sazinsamin.com</title>
+        <style>
+                /* given one style to many */
+                table, th, td{
+                        border: 1px solid blue;
+                        border-collapse: collapse;
+                        padding: 15px;
+                }
+                caption{
+                        padding: 10px;
+                }
+        </style>
+
+
+
+
+</head>
+        <!-- table tag for table -->
+        <table>
+                <!-- Set caption or header for table -->
+                <caption>Helper Queue List</caption>
+                <!-- table row -->
+                <tr>
+                        <!-- table header -->
+                        <th>Roll</th>
+                        <th>Name</th>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                </tr>
+                <tr>
+                        <!-- table data  -->
+                        <td>021191011</td>
+                        <td>Sazin</td>
+                        <td>Computer</td>
+                        <td>100</td>
+                </tr>
+                <tr>
+                        <!-- table data  -->
+                        <td>021191001</td>
+                        <td>Abeed</td>
+                        <td>Electronics</td>
+                        <td>100</td>
+                </tr>
+                <tr>
+                        <!-- table data  -->
+                        <td>021191017</td>
+                        <td>Akash</td>
+                        <!-- rowspan will span row by it's given value, 
+                                means it will take that much row to one row  -->
+                        <!-- same have also colspan for comlumnSpan -->
+                        <td rowspan="2">Power</td>
+                        <td rowspan="2">100</td>
+                </tr>
+                <tr>
+                        <td>021191011</td>
+                        <td>Muhib</td>
+                </tr>
+        </table>
+        
+</body>
+</html>

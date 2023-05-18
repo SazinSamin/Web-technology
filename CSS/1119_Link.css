@@ -1,0 +1,36 @@
+/* This Order should always have to maintain */
+
+#buttonOne{
+        padding: 20px;
+        /* get the entire block */
+        /* display: block; */
+        background-color: aqua;
+        border-radius: 20px 20px;
+        /* text-decoration: none will remove the line under the link */
+        text-decoration: none;
+}
+
+/* Design if the link never visited */
+#buttonOne:link{
+        background-color: aqua;
+}
+
+/* Design if the link once visited */
+#buttonOne:visited{
+        color: red;
+}
+
+
+
+/* How the design will be, when we put cursor on this link */
+#buttonOne:hover{
+        background-color: blue;
+        color: white;
+}
+
+/* Design when click is clicked */
+/* I can't find out why it doesn't work properly */
+#buttonOne:checked{
+        color: yellow;
+}
+

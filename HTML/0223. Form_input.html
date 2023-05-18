@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                        body{
+                                background-color: grey;
+                        }
+                        h1{
+                                text-align: center;
+                                color: white;
+                                font-size: 6vw;
+                        }
+
+                        form{
+                                text-align: center;
+                                padding: 1vw;
+                                color: white;
+                        }
+
+                        input{
+                                padding: 0.5vw;
+                        }
+
+                        #submit1{
+                                color: black;
+                        }
+        </style>
+</head> 
+<body>
+        
+        <h1>Welcome to GreyWolf</h1>
+        <form action="", method="get">
+
+                <label for="">Username: </label>
+                <!-- autofocus used for when the website load, at first where the focus will be -->
+                <input type="text" autofocus><br><br>
+
+
+                <label for="password: ">Password</label>
+                <!-- required used for, must have to submit that input field, nor it will emit error -->
+                <input type="password" required><br><br>
+
+
+                <label for="pin">Pin</label>
+                <!-- maxlength used for set maxlength of user input -->
+                <input type="text" maxlength="5">
+
+
+                <br><br>
+                <input id="submit1" type="submit">
+        </form>
+
+
+</body>
+</html>

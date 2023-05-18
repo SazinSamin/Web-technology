@@ -1,0 +1,18 @@
+#Commit, #Cancel{
+
+        /* opacity will reduce the opacity of whole, means content as well as other */
+        /* like text, color. */
+        opacity: 0.1;
+        
+        /* We can also reduce opacity here, but it only reduct the opacity of background. */
+        /* also can use rgba */
+        background-color: rgb(204, 197, 182);
+       
+
+        
+
+
+
+        padding: 10px;
+        border: 5px solid gray;
+}

@@ -1,0 +1,11 @@
+.navbar{
+        /* Hold static position in page */
+        position: static;
+        /* Change postion according to parent */
+        position: relative;
+
+        /* Retain same position when scrolling, mainly used in navbar */
+        /* Don't forget to make top = 0  */
+        position: sticky;
+        top:0;
+}

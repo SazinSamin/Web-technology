@@ -1,0 +1,7 @@
+/* https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
+
+.card-shadow{
+    box-shadow: -10px 10px 10px  rgba(255, 0, 0, 0.5),
+    10px -10px 10px  rgba(0, 0, 255, 0.5);
+}

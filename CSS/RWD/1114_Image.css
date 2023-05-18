@@ -1,0 +1,16 @@
+/* In case of small screen size, if we use large images in background or anywhere then the website */
+                /* take long time to load, so by using RWD we can only use images when our screen size is large */
+                /* and have enough computational power. */
+                body{
+                        color: white;
+                        background-color: blue;
+                        text-align: center;
+                }
+
+                /* change the CSS design when screen size more than 700px */
+                @media only screen and (min-width: 700px){
+                        body{
+                                color: white;
+                                background-image: url("/img/IZMIR.png");
+                        }
+                }

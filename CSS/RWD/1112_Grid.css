@@ -1,0 +1,23 @@
+ *{
+                        box-sizing: border-box;
+                }
+
+                h1{
+                        border: 2px solid blue;
+                }
+                
+                /* Both left right tag items will retain it's cover percentage with any width display, mens it will also change it's with according to the display size */
+
+                /* The left class items will get position in left with 30% width.*/
+                .left{
+                        border: 2px solid blue;
+                        float: left;
+                        width: 30%;
+                }
+
+                /* The right class items will get position in right with 70% width.*/
+                .main{
+                        border: 2px solid blue;
+                        float: right;
+                        width: 70%;
+                }

@@ -1,0 +1,5 @@
+h1{
+        color: blue;
+        /*color: rgb(202, 38, 52);                      here rgb =  (red, green, blue) range 0-255
+        color: rgba(66, 66, 129, .5);                   a = (opacity) range 0-1;   */
+}

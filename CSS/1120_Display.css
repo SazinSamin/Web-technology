@@ -1,0 +1,15 @@
+.paragraph{
+        /* It will take space according to the size of the content */
+        display:inline-block;
+        /* Take the entire block space */
+        display: block;
+        /* No content will show, no space will take */
+        display: none;
+        /* No content will show, but space will take */
+        visibility: hidden;
+
+
+        background-color: coral;
+        border: 5px solid black;
+        margin: auto;
+}

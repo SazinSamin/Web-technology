@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+                crossorigin="anonymous">
+
+        <link rel="stylesheet" href="/styles/style1.css">
+
+        <title>Hello, world!</title>
+</head>
+
+<body>
+
+        <!-- Bootstrap has 12 grids, means bootstrap divides a webpage in 12 divisions. -->
+
+        <!-- col refer to columns, just only give col will allocate the whole 12 divisions -->
+        <!-- other hand, by giving col-1 or col-5, allocate 1 room or 5 rooms of 12 divisions -->
+
+        <!-- row refer to rows, row-1 or row-5 works same as column -->
+
+        <!-- link to your own defined CSS for override the bootstrap default CSS-->
+        <div class="container">
+                <div class="row">
+                        <!-- "p-3" it's a built in padding in bootstrap, p can be from 0-5, 1p take 16 pixel, means 5 will take 3*16 = 48 pixel -->
+                        <div class="col-4 p-3">
+                                Allocate 4 space
+                        </div>
+                        <div class="col-8 p-3">
+                                Allocate 8 space
+                        </div>
+                </div>
+
+                <div class="row">
+
+                        <!-- "col-sm" used for defining for how to content will react when screen changes, -->
+                        <!-- The Bootstrap grid system has four classes: xs (phones), sm (tablets), md (desktops), and lg (larger desktops). The -->
+                        <!-- classes can be combined to create more dynamic and flexible layouts. -->
+
+
+                        <div class="col-12 col-sm-8 p-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eum in sunt numquam laboriosam a exercitationem tempora, reprehenderit assumenda beatae necessitatibus? Voluptatum labore nostrum deserunt tenetur quisquam nulla exercitationem corporis quibusdam esse quaerat quae laborum numquam sapiente odio corrupti eum culpa omnis, ut sunt repellendus fugiat dolorem molestias! Velit laudantium alias, quae ipsa accusamus autem! Doloremque minima odio aut est atque, dignissimos iste aliquid esse architecto asperiores dolore vel hic voluptates officia vero reiciendis mollitia accusantium iusto iure aspernatur saepe dolorem dicta. Hic enim dolores, cum voluptas quidem ipsam adipisci labore maxime ea id quo accusantium incidunt. Fugiat, quidem placeat.
+                        </div>
+                        <div class="col-12 col-sm-4 p-5">
+                                Allocate 8 space
+                        </div>
+                </div>
+
+
+
+        </div>
+
+
+ 
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+                crossorigin="anonymous"></script>
+
+</body>
+
+</html>

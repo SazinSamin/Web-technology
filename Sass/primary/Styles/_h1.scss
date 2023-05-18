@@ -1,0 +1,14 @@
+@import "./variables";
+@import "./color";
+
+
+@mixin  headerDesign{
+        justify-content: center;
+        text-align: center;
+       @include colorBox(rgb(0, 255, 34),rgb(60, 150, 153));
+}
+
+
+h1{
+        @include headerDesign();
+}

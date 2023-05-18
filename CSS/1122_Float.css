@@ -1,0 +1,13 @@
+.float{
+        border: 5px solid blue;
+        padding: 5px;
+        /* if any image get overflow or go outside the border, make overflow: auto to get the image inside */
+        /* the border */
+        overflow: auto;
+}
+
+/* to move a image should call the img tag with id, doesn't work with class */
+#imagemine{
+        /* move image to right or left */
+        float: left;
+}

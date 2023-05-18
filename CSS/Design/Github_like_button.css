@@ -1,0 +1,44 @@
+#Commit {
+        padding: 12px;
+        background-color: green;
+        color: white;
+        border-radius: 9px 9px ;
+        border: 2px solid grey;
+        display: inline-block;
+        text-decoration: none; 
+        opacity: 0.5;
+}
+
+
+#Commit:hover{
+        padding: 12px;
+        background-color: green;
+        color: white;
+        border-radius: 9px  9px ;
+        border: 2px solid grey;
+        display: inline-block;
+        text-decoration: none; 
+        opacity: 1.0;
+}
+
+
+#Cancel {
+        padding: 12px;
+        background-color: whitesmoke;
+        color: red;
+        border-radius: 9px  9px ;
+        border: 2px solid grey;
+        display: inline-block;
+        text-decoration: none; 
+}
+
+
+#Cancel:hover{
+        padding: 12px;
+        background-color:crimson;
+        color: white;
+        border-radius: 9px  9px ;
+        border: 2px solid grey;
+        display: inline-block;
+        text-decoration: none; 
+}

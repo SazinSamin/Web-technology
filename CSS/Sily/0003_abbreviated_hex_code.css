@@ -1,0 +1,7 @@
+/* https://www.freecodecamp.org/learn/responsive-web-design/basic-css/use-abbreviated-hex-code */
+
+.colorVar{
+        color: #00FF00;
+        /* this last one is Abbreviated Hex code, it turn down the maximum color 16M to 4000; */
+        color: #0F0;
+}

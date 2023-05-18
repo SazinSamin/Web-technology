@@ -1,0 +1,1 @@
+1. In html if there have same properties for one elements, then what we last add that will apply to the web.

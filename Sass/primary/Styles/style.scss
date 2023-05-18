@@ -1,0 +1,27 @@
+@import "./variables";
+@import "./h1";
+@import "./color";
+
+
+
+form{
+        button{
+        padding: 10px;
+        height: 60px;
+        width: 80px;
+        text-align: center;
+        align-items: center;
+        @include headerDesign();
+        @include colorBox(purple, rgb(22, 206, 22));
+        &:hover{
+                background-color: $hoverButton;
+        }
+        a{
+                color: $myColor;
+        }
+        }
+}
+
+p{
+        @extend h1;
+}

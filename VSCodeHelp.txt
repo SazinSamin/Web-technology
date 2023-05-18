@@ -1,0 +1,8 @@
+1. (loremn) -> n =  any value. 
+   Ex: lorem100 -> This will generate 100 words for you. you can give any value to ask for that amount of lines.
+
+
+2. If line goes so long in VSCode, type Alt + Z, for wrap in the window.
+
+3. create multiplte items in one.
+   Ex: li*5 = this will create 5 list items in css.

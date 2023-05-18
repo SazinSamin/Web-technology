@@ -1,0 +1,13 @@
+/* https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/create-a-gradual-css-linear-gradient */
+/* https://www.w3schools.com/css/css3_gradients.asp */
+
+
+.box1{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(35deg, blue, cyan);
+    /* ### somhow radial and conic gradient doesn't work. */
+
+    /* background: radial-gradient(35deg, blue, cyan); */
+    /* background: conic-gradient(35deg, blue, cyan); */
+}

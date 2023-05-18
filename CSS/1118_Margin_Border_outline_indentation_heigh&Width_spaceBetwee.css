@@ -1,0 +1,63 @@
+.head1{
+        padding: 50px;
+        background-color: aqua;
+        height: 400px;
+
+        /* CSS margin*/
+        margin: 50px 50px 50px 50px;    
+        /* margin value we give clockwise
+        we can also give like*/
+        margin-top: 100px;
+
+        /* outline */
+        outline: 10px solid blue;
+
+        /* border*/
+        border: 10px solid blue;
+}
+
+
+
+/* select a class specifiq element*/
+.head1 h1{
+        /* padding*/
+        padding: 20px; 
+
+        text-align: center;
+        color: rgb(12, 12, 122);
+
+        /* text shadow */
+        text-shadow: 5px 3px blueviolet;
+
+        font-size: 60px;
+
+        font-family: 'Playfair Display', serif;
+}
+
+
+.head1 .para1 p{
+        color: blue;
+        padding: 10px;
+        
+        /* indentation */
+        text-indent: 100px;
+        text-align: justify;
+
+        /* heigh & witdth*/
+        height: 10px;
+
+        /* line height */
+        line-height: 1cm;
+
+        /* space between each letter */
+        letter-spacing: 5px;
+
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+}
+
+body{
+        background-color: aquamarine;
+}
+
+

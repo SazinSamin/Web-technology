@@ -1,0 +1,15 @@
+/* css combinators is about select tag, class, id under tag or class or id */
+/* need to get for info about combinators */
+
+/* catch immmediate ancestor */
+.table > table{
+        background-color:aquamarine;
+}
+
+.table{
+        background-color: gray;
+}
+
+.table tr{
+        background-color: antiquewhite;
+}

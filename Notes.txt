@@ -1,0 +1,40 @@
+#c An id also has a higher specificity (importance) than a class so if both are applied to the same element
+   and have conflicting styles, the styles of the id will be applied.
+
+
+
+
+#c An element's padding controls the amount of space between the element's content and its border.
+#c An element's margin controls the amount of space between an element's border and surrounding elements.
+  - If you set an element's margin to a negative value, the element will grow larger.
+  
+  
+  
+  
+  
+#c he last several challenges all set an element's margin or padding with pixels (px). Pixels are a type of length unit, which is what tells the browser how to size or space an item. In addition to px, CSS has a number of different length unit options that you can use.
+
+The two main types of length units are absolute and relative. Absolute units tie to physical units of length. For example, in and mm refer to inches and millimeters, respectively. Absolute length units approximate the actual measurement on a screen, but there are some differences depending on a screen's resolution.
+
+Relative units, such as em or rem, are relative to another length value. For example, em is based on the size of an element's font. If you use it to set the font-size property itself, it's relative to the parent's font-size.
+
+
+
+
+
+
+#C It doesn't matter which order the classes are listed in the HTML element.
+  However, the order of the class declarations in the <style> section is what is important. The second declaration will always take         precedence over the first.
+  
+#c id has more predence over class.
+
+
+
+
+
+
+# HTML5 introduced several new elements that give developers more options while also incorporating accessibility features. These tags include main, header, footer, nav, article, and section, among others.
+
+
+# The section element is also new with HTML5, and has a slightly different semantic meaning than article. An article is for standalone content, and a section is for grouping thematically related content. They can be used within each other, as needed. For example, if a book is the article, then each chapter is a section. When there's no relationship between groups of content, then use a div.
+<div> - groups content <section> - groups related content <article> - groups independent, self-contained content

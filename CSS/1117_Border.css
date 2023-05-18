@@ -1,0 +1,4 @@
+h1{
+        display: inline;
+        border: 2px dotted blue;        /* border can be solid, dotted, etc*/
+}

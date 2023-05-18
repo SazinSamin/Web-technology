@@ -1,0 +1,5 @@
+.applyBorder{
+        border: 10px solid blue;
+        /* we can round the border using border-radius */
+        border-radius: 10px;
+}

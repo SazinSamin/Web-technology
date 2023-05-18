@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+<body>
+        
+        <!-- <form> tag brings HTML form, for taking input from user, "action" send userinput data to the backend -->
+         <!-- select method from method option. -->
+        <form action="node.js" method="get">
+
+                <!-- You can either just type you data like "Username" here directly inside the form 
+                        or inside the <label> tag, label tag option "for" used to identify for which, the label is used for,  
+                        so, set a input id for that -->
+                <label for="username">Username: </label>
+                <!-- input tag take input from user, "id" option used for unique identity of that tag -->
+                <!-- and type select which type of data this input field will take -->
+                <input id="username" type="text"><br><br>
+                <label for="password">Password: </label>
+                <input id="password" type="password">
+
+                <br><br>
+                <label for="Gender">Gender</label>
+                <!-- if two or more "name" option of radio button used same name, 
+                        then we can select one radio button at a time -->
+                <input type="radio" name="gender" value="Male" id="">
+                <label for="">Male</label>
+                <input type="radio" name="gender" value="Female" id="">
+                <label for="">Female</label>
+
+                <br><br>
+                <!-- Submit button -->
+                <button type="button">Submit</button>
+                <br><br>
+                <!-- submit type input -->
+                <input type="button" value="Submit">
+
+        </form>
+
+
+</body>
+</html>

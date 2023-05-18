@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+        <h1>Website</h1>
+        <p>Gender</p>
+        <!-- select tag used for select a option from many -->
+        <select name="select" id="">
+                <!-- option tag used for get as many as options -->
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+        </select>
+
+        <button>Button</button>
+
+        <br><br>
+        <!-- textarea used to text large level input. placeholder for give suggestion or hint about the text input -->
+        <textarea name="" id="" cols="30" rows="10" placeholder="Enter your description here"></textarea>
+
+        
+        <br><br>
+        <!-- We can also use input tag list of options, in "list" option of input tag, we must give the list id to connect with the data list -->
+        <input type="text" list="myList">
+
+        <!-- datalist for list of options, must have id for connect with the input tag, id have to be 
+                match with the input tag "list" option value to show input list or sugession 
+                except list option we also can give other text to input-->
+        <datalist id="myList">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Chittagong">Chittagong</option>
+                <option value="Khulna">Khulna</option>
+        </datalist>
+
+        <button>Sumit</button>
+</body>
+</html>

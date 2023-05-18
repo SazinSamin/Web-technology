@@ -1,0 +1,7 @@
+/* https://www.w3schools.com/colors/colors_hsl.asp */
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(180, 100%, 50%);
+}

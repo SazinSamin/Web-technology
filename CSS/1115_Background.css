@@ -1,0 +1,21 @@
+/* we can also add background same way of local image */
+
+/* single selector*/
+
+body{
+        background: url(https://images.ctfassets.net/hrltx12pl8hq/7JnR6tVVwDyUM8Cbci3GtJ/
+          bf74366cff2ba271471725d0b0ef418c/
+          shutterstock_376532611-og.jpg);
+  
+        background-size:cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: white;
+}
+
+h1{
+        text-align: left;
+        font-size: 50px;
+}
+
+

@@ -1,0 +1,4 @@
+@mixin colorBox ($color, $background){
+        color: $color;
+        background-color: $background;
+}

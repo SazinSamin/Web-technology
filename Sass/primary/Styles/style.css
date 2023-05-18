@@ -1,0 +1,35 @@
+h1, p {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #00ff22;
+  background-color: #3c9699;
+}
+
+form button {
+  padding: 10px;
+  height: 60px;
+  width: 80px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #00ff22;
+  background-color: #3c9699;
+  color: purple;
+  background-color: #16ce16;
+}
+
+form button:hover {
+  background-color: #12125c;
+}
+
+form button a {
+  color: yellow;
+}
+/*# sourceMappingURL=style.css.map */

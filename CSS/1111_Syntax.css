@@ -1,0 +1,16 @@
+/*
+selector{
+        property: value
+}
+*/
+
+body{
+        background-color: rgb(10, 144, 189);
+}
+
+p{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+}
+

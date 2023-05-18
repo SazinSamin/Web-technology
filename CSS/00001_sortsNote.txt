@@ -1,0 +1,100 @@
+text-decoration: underline; <u>
+font-style: italic; <em>
+
+// line cut
+decoration: line-through; <s>
+
+// horizontal line
+<hr>
+
+
+// opacity increase the tranparency of the whole tag, means that tag or class child also inherit the opacity
+opacity: 0.3;
+
+font-weight: 100;
+
+
+// vertical space between line
+line-height: 25px;
+
+
+// skew an element
+transform: skewX(24deg);
+
+
+// add content(like text) before or after any tag element
+p::before{
+    content: "Future ";
+    background-color: yellow;
+}
+
+p::after{
+    content: "Next";
+    background-color: red;
+}
+
+
+// this methods control how animation work like, in first it move fast then slow, or the reverse.
+animation-timing-function: ease-out;
+
+
+
+
+// spacify animation iteration count
+animation-iteration-count: infinite;
+
+
+button:hover{
+    // this will keep the animation alive when you hover over the elements or do somethings else.
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+// by "float" property we can set an element horizontal position
+// https://www.w3schools.com/css/css_float.asp
+float: left;
+float: right;
+
+
+// make an element stick to that position.
+position: sticky;
+
+
+// https://www.freecodecamp.org/learn/re
+// z-index property can specify the order of how elements are stacked on top of one another and higher values for the z-index property of an element move it higher in the stack than those with lower values.
+// I have found that it doesn't work without give position property absolute.
+
+z-index: 1;
+
+
+
+// make margin auto will give a center position of your element
+margin: auto;
+
+
+
+
+
+
+// The max-width of 100% will make sure the image is never wider than the container it is in, and the height of auto will make the image keep its original aspect ratio.
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+// https://www.freecodecamp.org/learn/responsive-web-design/css-flexbox/use-display-flex-to-position-two-boxes
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+
+
+align-items: center;

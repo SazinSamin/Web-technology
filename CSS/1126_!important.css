@@ -1,0 +1,5 @@
+
+/* css value with important will override all other css attribute */
+.pink-text {
+    color: pink !important;
+  }
